@@ -18,16 +18,15 @@ export class MainComponent {
 
   ngOnInit() {
     this.fetchData();
-    console.log(this.pokemons);
   }
-
+  
   fetchData() {
     this.http.get<any[]>('https://tyradex.vercel.app/api/v1/pokemon')
-      .subscribe(response => {
-        this.pokemons = response.map((data: any) => ({
-          name: data.name.fr,
-          pokedexNumber: data.pokedexId
-        }));
-      });
+    .subscribe(response => {
+      this.pokemons = response.map((data: any) => ({
+        name: data.name.fr,
+        pokedexNumber: data.pokedexId
+      }));
+    });
   }
 }
