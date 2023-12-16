@@ -1,0 +1,5 @@
+<a *ngFor="let pokemon of pokemons" routerLink="/pokemon" [queryParams]="{pokedexNumber: pokemon.pokedexNumber}">
+    <div>
+        N° {{ pokemon.pokedexNumber }} : {{ pokemon.name }} 
+    </div>
+</a>
