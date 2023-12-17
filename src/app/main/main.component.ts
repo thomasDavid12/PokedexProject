@@ -3,11 +3,12 @@ import { Pokemon } from '../../models/Pokemon';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import {MatListModule} from '@angular/material/list';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [HttpClientModule, CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [HttpClientModule, CommonModule, RouterOutlet, RouterLink, RouterLinkActive, MatListModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss'
 })
