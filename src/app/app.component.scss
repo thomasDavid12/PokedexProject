@@ -1,7 +1,26 @@
-.sidenav-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+.pokeball-image {
+    width: 20px;
+    height: 20px;
+}
+
+.app-container {
+  background: #303030;
+  display: flex;
+  flex: 1 auto;
+  min-width: 100%;
+  min-height: 100%;
+  flex-grow: 1;
+}
+
+.left-menu {
+  border-right: 1px solid rgba(255,255,255,.12);
+}
+
+.button-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.main-content {
+  flex-grow: 1;
+}

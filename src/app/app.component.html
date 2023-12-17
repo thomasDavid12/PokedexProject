@@ -1,4 +1,13 @@
-<mat-sidenav-container class="sidenav-container">
-    <mat-sidenav mode="side" opened>HELLO</mat-sidenav>
-    <mat-sidenav-content><router-outlet></router-outlet></mat-sidenav-content>
-</mat-sidenav-container>
+<div class="app-container">
+    <div class="left-menu">
+        <button mat-button color="basic">
+            <div class="button-content" routerLink="/">
+                <img class="pokeball-image" src="./assets/img/pokeball.png" alt="Pokeball" />
+                <div>POKEDEX PROJECT</div>
+            </div>
+        </button>
+    </div>
+    <div class="main-content">
+        <router-outlet></router-outlet>
+    </div>
+</div>
