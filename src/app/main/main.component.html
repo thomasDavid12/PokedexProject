@@ -1,3 +1,17 @@
-<mat-list *ngFor="let pokemon of pokemons" >
-    <a mat-list-item routerLink="/pokemon" [queryParams]="{pokedexNumber: pokemon.pokedexNumber}">N° {{ pokemon.pokedexNumber }} : {{ pokemon.name }} </a>
+<mat-form-field class="example-full-width">
+    <mat-label>Pokemon name</mat-label>
+    <input matInput placeholder="Pokemon name" (input)="updateList($event)">
+</mat-form-field>
+
+<mat-list *ngFor="let pokemon of filteredPokemons" >
+    <a mat-list-item 
+        routerLink="/pokemon" 
+        [queryParams]="{pokedexNumber: pokemon.pokedexNumber}">
+        <div class="pokemon-line">
+            <p>
+                N° {{ pokemon.pokedexNumber }} : {{ pokemon.name }} 
+            </p>
+            <img src="{{ pokemon.spritePath }}" alt="{{ pokemon.name }} image" width="50px" height="50px">
+        </div>
+    </a>
 </mat-list>
