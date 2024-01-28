@@ -1,13 +1,17 @@
-<div class="app-container">
-    <div class="left-menu">
+<header>
+    POKEDEX
+</header>
+
+<section class="app-container">
+    <aside class="left-menu">
         <button mat-button color="basic">
             <div class="button-content" routerLink="/">
                 <img class="pokeball-image" src="./assets/img/pokeball.png" alt="Pokeball" />
                 <div>POKEDEX PROJECT</div>
             </div>
         </button>
-    </div>
-    <div class="main-content">
+    </aside>
+    <article class="main-content">
         <router-outlet></router-outlet>
-    </div>
-</div>
+    </article>
+</section>
