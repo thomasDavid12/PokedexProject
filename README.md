@@ -1,27 +1,50 @@
-# PokedexProject
+# Pokédex Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+Bienvenue dans le projet Pokédex ! Ce projet vise à créer une application web interactive permettant aux utilisateurs de parcourir et découvrir des informations sur différents Pokémon.
 
-## Development server
+## Objectif
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+L'objectif principal de ce projet est de développer un Pokédex complet avec les fonctionnalités suivantes :
 
-## Code scaffolding
+- Afficher une liste de Pokémon avec leurs images et noms.
+- Permettre aux utilisateurs de rechercher des Pokémon spécifiques.
+- Fournir des détails sur chaque Pokémon, tels que le type, la taille, le poids, etc.
+- Offrir une expérience utilisateur agréable et intuitive.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fonctionnalités
 
-## Build
+- **Liste de Pokémon :** Consultez une liste complète de Pokémon avec des informations de base.
+- **Recherche :** Recherchez des Pokémon spécifiques par nom ou numéro.
+- **Détails du Pokémon :** Obtenez des détails détaillés sur chaque Pokémon.
+- **Interface utilisateur conviviale :** Une interface utilisateur propre et conviviale pour une expérience agréable.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies utilisées
 
-## Running unit tests
+- **HTML/CSS :** Utilisés pour le marquage et le style de l'interface utilisateur.
+- **Angular :** Utilisé pour le développement front-end de l'application.
+- **Pokémon API :** Pour récupérer les données des Pokémon.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Comment utiliser
 
-## Running end-to-end tests
+1. Assurez-vous d'avoir Node.js installé sur votre machine.
+2. Clonez ce dépôt sur votre machine locale.
+3. Accédez au répertoire du projet via la ligne de commande.
+4. Installez les dépendances avec la commande : `npm install`.
+5. Démarrez l'application avec la commande : `ng serve`.
+6. Ouvrez votre navigateur et accédez à `http://localhost:4200` pour utiliser le Pokédex.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribuer
 
-## Further help
+Si vous souhaitez contribuer à ce projet, suivez ces étapes :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Fork du projet.
+2. Créez une branche pour votre fonctionnalité : `git checkout -b fonctionnalite-incroyable`.
+3. Committez vos modifications : `git commit -m 'Ajout de la fonctionnalité incroyable'`.
+4. Poussez vos modifications vers votre fork : `git push origin fonctionnalite-incroyable`.
+5. Créez une Pull Request.
+
+## Auteurs
+
+- Thomas DAVID
+
+N'hésitez pas à ajouter d'autres sections pertinentes en fonction de l'évolution du projet. Bon codage !
