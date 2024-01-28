@@ -8,3 +8,11 @@ mat-list:nth-child(odd) {
     align-items: center;
     gap: 1rem;
 }
+
+.filter-component {
+    min-width: 400px;
+}
+
+.filter-component-container {
+    text-align: center;
+}
