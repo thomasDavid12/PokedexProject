@@ -50,7 +50,7 @@ interface Sexe {
 }
 
 interface Pokemon {
-  pokedexId: number;
+  pokedex_id: number;
   generation: number;
   category: string;
   name: Name;
@@ -70,7 +70,7 @@ interface Pokemon {
 }
 
 export class PokemonFullDto {
-  pokedexId: number;
+  pokedex_id: number;
   generation: number;
   category: string;
   name: Name;
@@ -89,7 +89,7 @@ export class PokemonFullDto {
   forme: null;
 
   constructor(data: Pokemon) {
-    this.pokedexId = data.pokedexId;
+    this.pokedex_id = data.pokedex_id;
     this.generation = data.generation;
     this.category = data.category;
     this.name = data.name;
